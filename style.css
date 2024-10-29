@@ -2,6 +2,7 @@
 * {
   box-sizing: border-box;
   padding: 0;
+  border: 0;
   margin: 0;
 }
 
@@ -17,14 +18,23 @@ a {
 
 .header,
 .hero,
+.information,
+.quote,
+.call-to-action,
+.footer {
+  padding-inline: 14vw;
+}
+
+.header,
+.hero,
 .footer {
   display: flex;
   background-color: #1f2937;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .header {
-  padding: 24px 48px;
+  padding-block: 2vh;
   align-items: baseline;
 }
 
@@ -54,14 +64,40 @@ a {
   color: #e5e7eb;
 }
 
+.hero {
+  padding-block: 12vh;
+  gap: 1vw;
+}
+
+.hero-text {
+  display: flex;
+  flex-flow: column;
+  align-items: start;
+  gap: 10px;
+}
+
 button,
 .call-to-action {
   background-color: #3882f6;
+  color: #ffffff;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+button {
+  padding-inline: 32px;
+  padding-block: 8px;
+}
+
+.hero .main,
+.hero .secondary {
+  width: 400px;
 }
 
 .placeholder {
-  width: 400px;
-  height: 200px;
+  width: 500px;
+  height: 250px;
   background-color: #6e747c;
 
   display: flex;
