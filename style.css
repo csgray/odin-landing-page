@@ -16,6 +16,10 @@ a {
   text-decoration-line: none;
 }
 
+img {
+  display: block;
+}
+
 .header,
 .hero,
 .information,
@@ -105,10 +109,41 @@ button {
   align-items: center;
 }
 
-.information .header {
+.information {
+  padding-top: 6vh;
+  padding-bottom: 12vh;
+}
+
+.information-header {
+  padding-bottom: 6vh;
+
   font-size: 36px;
   color: #1f2937;
-  weight: 900;
+  font-weight: 900;
+  text-align: center;
+}
+
+.information-images {
+  display: flex;
+  flex-flow: row wrap;
+  flex: 0 1 auto;
+  justify-content: center;
+  align-items: start;
+  gap: 50px;
+}
+
+.information-image {
+  border: 4px solid #3882f6;
+  border-radius: 16px;
+  aspect-ratio: 180 / 180;
+}
+
+.information-text {
+  width: 180px;
+  padding: 8px;
+  font-size: 18px;
+  color: #444;
+  text-align: center;
 }
 
 .quote {
