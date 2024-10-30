@@ -24,7 +24,7 @@ img {
 .hero,
 .information,
 .quote,
-.call-to-action,
+.action-container,
 .footer {
   padding-inline: 14vw;
 }
@@ -163,4 +163,27 @@ button {
   font-weight: 900;
   text-align: right;
   margin-right: 8vh;
+}
+
+.action-container {
+  padding-block: 10vh;
+}
+
+.call-to-action {
+  padding-block: 5vh;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-evenly;
+
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.action-subheader {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.action-button {
+  border: 2px solid #fff;
 }
