@@ -70,6 +70,7 @@ img {
 
 .hero {
   padding-block: 12vh;
+  flex-flow: row wrap;
   gap: 1vw;
 }
 
@@ -100,8 +101,6 @@ button {
 }
 
 .placeholder {
-  width: 500px;
-  height: 250px;
   background-color: #6e747c;
 
   display: flex;
