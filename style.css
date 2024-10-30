@@ -170,10 +170,11 @@ button {
 }
 
 .call-to-action {
-  padding-block: 5vh;
+  padding: 5vh;
   display: flex;
   flex-flow: row;
   justify-content: space-evenly;
+  gap: 2vh;
 
   font-size: 18px;
   font-weight: 300;
